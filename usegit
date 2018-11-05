@@ -1,0 +1,26 @@
+Για τη δημιουργία νέου αποθετηρίου ενεργούμε ως εξής:
+
+1. Πρώτα δημιουργούμε στον λογαριασμό μας στο github νέο repository
+2. Ανοίγουμε command line 
+3. Δημιουργούμε φάκελο για το project μας
+	π.χ. mkdir project1
+4. Μέσα στο φάκελλο που ήδη δημιουργήσαμε γράφουμε
+	git init
+	git pull 'διεύθυνση του repository' 
+	π.χ. git pull 'https://github.com/pliroforikos/project1'
+
+
+
+echo "# project2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pliroforikos/project2.git
+git push -u origin master
+
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/pliroforikos/project2.git
+git push -u origin master
