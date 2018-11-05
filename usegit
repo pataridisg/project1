@@ -9,6 +9,12 @@
 	git pull 'διεύθυνση του repository' 
 	π.χ. git pull 'https://github.com/pliroforikos/project1'
 
+Για το ανέβασμα νέου αρχείου σε υπάρχον αποθετήριο
+1. Αφού δημιουργήσουμε και επεξεργαστούμε το αρχείο
+2. git add <ονομα αρχείου>
+3. git commit -m 'μήνυμα commit'
+4. git push -u origin master
+
 
 
 echo "# project2" >> README.md
